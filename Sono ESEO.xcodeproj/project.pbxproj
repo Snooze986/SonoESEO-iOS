@@ -1,0 +1,1173 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2161FA454014D8CA68CD9C45 /* Pods_Sono_ESEOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B06FCE8B2F4F1A1EB04D2D /* Pods_Sono_ESEOUITests.framework */; };
+		8246707D9532B241810FD717 /* Pods_Sono_ESEOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF5B3DE48E9FE8B0418C7F4 /* Pods_Sono_ESEOTests.framework */; };
+		B5DE68FBD723440F4369CC5E /* Pods_Sono_ESEO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE16AF67EC5070C91BCF1F79 /* Pods_Sono_ESEO.framework */; };
+		D60A1A1D1EDB249C00B78749 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A1A1C1EDB249C00B78749 /* WebViewController.swift */; };
+		D60A77B41ED08C1900F80055 /* Material.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A77B31ED08C1900F80055 /* Material.swift */; };
+		D60A77B81ED08DFD00F80055 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60A77B71ED08DFD00F80055 /* Activity.swift */; };
+		D60E868B1EB61A5800BA0ACA /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E868A1EB61A5800BA0ACA /* ServicesController.swift */; };
+		D60E868E1EB61B0D00BA0ACA /* ServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E868D1EB61B0D00BA0ACA /* ServiceCell.swift */; };
+		D60E86921EB623DA00BA0ACA /* ServicePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86911EB623DA00BA0ACA /* ServicePopup.swift */; };
+		D60E86951EB63C3C00BA0ACA /* CalendarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86941EB63C3C00BA0ACA /* CalendarController.swift */; };
+		D60E86A31EB660AD00BA0ACA /* ActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86A21EB660AD00BA0ACA /* ActivitiesController.swift */; };
+		D60E86A51EB6629500BA0ACA /* SortModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86A41EB6629500BA0ACA /* SortModal.swift */; };
+		D60E86A71EB6686E00BA0ACA /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86A61EB6686E00BA0ACA /* ActivityCell.swift */; };
+		D60E86AC1EB66E2A00BA0ACA /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60E86AB1EB66E2A00BA0ACA /* SettingsController.swift */; };
+		D60F89081FA36A87008AD782 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60F89071FA36A87008AD782 /* CalendarCell.swift */; };
+		D654C4A61EB53CAA00733CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D654C4A51EB53CAA00733CBD /* AppDelegate.swift */; };
+		D654C4AB1EB53CAA00733CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D654C4A91EB53CAA00733CBD /* Main.storyboard */; };
+		D654C4AE1EB53CAA00733CBD /* Sono_ESEO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D654C4AC1EB53CAA00733CBD /* Sono_ESEO.xcdatamodeld */; };
+		D654C4B01EB53CAA00733CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D654C4AF1EB53CAA00733CBD /* Assets.xcassets */; };
+		D654C4B31EB53CAA00733CBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D654C4B11EB53CAA00733CBD /* LaunchScreen.storyboard */; };
+		D654C4BE1EB53CAA00733CBD /* Sono_ESEOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D654C4BD1EB53CAA00733CBD /* Sono_ESEOTests.swift */; };
+		D654C4C91EB53CAA00733CBD /* Sono_ESEOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D654C4C81EB53CAA00733CBD /* Sono_ESEOUITests.swift */; };
+		D654C4D81EB53CC900733CBD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D654C4D71EB53CC900733CBD /* Login.storyboard */; };
+		D654C4EB1EB53D7600733CBD /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4D91EB53D7600733CBD /* Lato-Black.ttf */; };
+		D654C4EC1EB53D7600733CBD /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DA1EB53D7600733CBD /* Lato-BlackItalic.ttf */; };
+		D654C4ED1EB53D7600733CBD /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DB1EB53D7600733CBD /* Lato-Bold.ttf */; };
+		D654C4EE1EB53D7600733CBD /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DC1EB53D7600733CBD /* Lato-BoldItalic.ttf */; };
+		D654C4EF1EB53D7600733CBD /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DD1EB53D7600733CBD /* Lato-Hairline.ttf */; };
+		D654C4F01EB53D7600733CBD /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DE1EB53D7600733CBD /* Lato-HairlineItalic.ttf */; };
+		D654C4F11EB53D7600733CBD /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4DF1EB53D7600733CBD /* Lato-Heavy.ttf */; };
+		D654C4F21EB53D7600733CBD /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E01EB53D7600733CBD /* Lato-HeavyItalic.ttf */; };
+		D654C4F31EB53D7600733CBD /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E11EB53D7600733CBD /* Lato-Italic.ttf */; };
+		D654C4F41EB53D7600733CBD /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E21EB53D7600733CBD /* Lato-Light.ttf */; };
+		D654C4F51EB53D7600733CBD /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E31EB53D7600733CBD /* Lato-LightItalic.ttf */; };
+		D654C4F61EB53D7600733CBD /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E41EB53D7600733CBD /* Lato-Medium.ttf */; };
+		D654C4F71EB53D7600733CBD /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E51EB53D7600733CBD /* Lato-MediumItalic.ttf */; };
+		D654C4F81EB53D7600733CBD /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E61EB53D7600733CBD /* Lato-Regular.ttf */; };
+		D654C4F91EB53D7600733CBD /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E71EB53D7600733CBD /* Lato-Semibold.ttf */; };
+		D654C4FA1EB53D7600733CBD /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E81EB53D7600733CBD /* Lato-SemiboldItalic.ttf */; };
+		D654C4FB1EB53D7600733CBD /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4E91EB53D7600733CBD /* Lato-Thin.ttf */; };
+		D654C4FC1EB53D7600733CBD /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D654C4EA1EB53D7600733CBD /* Lato-ThinItalic.ttf */; };
+		D654C5011EB5411700733CBD /* PortalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D654C5001EB5411700733CBD /* PortalController.swift */; };
+		D66C77EF1EBB470E006E4BDB /* Activities.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66C77EE1EBB470E006E4BDB /* Activities.storyboard */; };
+		D672283B1EB5F2A100A10EBF /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D672283A1EB5F2A100A10EBF /* ArticleController.swift */; };
+		D68424241FA000C100A4469D /* ActivitiesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68424231FA000C100A4469D /* ActivitiesConstants.swift */; };
+		D687F36D1EB55782002F7C1F /* DirectoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687F36C1EB55782002F7C1F /* DirectoryController.swift */; };
+		D687F36F1EB5579E002F7C1F /* DirectoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687F36E1EB5579E002F7C1F /* DirectoryCell.swift */; };
+		D6B456781EB546680069044B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B456771EB546680069044B /* LoginController.swift */; };
+		D6B4567E1EB550500069044B /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4567D1EB550500069044B /* UserController.swift */; };
+		D6B456801EB553480069044B /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B4567F1EB553480069044B /* ViewDesign.swift */; };
+		D6B456831EB553A00069044B /* ArticlesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B456821EB553A00069044B /* ArticlesController.swift */; };
+		D6B456851EB553D10069044B /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B456841EB553D10069044B /* ArticleCell.swift */; };
+		D6B6B8591F9E157D0047C27F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6B8581F9E157D0047C27F /* APIClient.swift */; };
+		D6B6B85B1F9E46F50047C27F /* APICore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6B85A1F9E46F50047C27F /* APICore.swift */; };
+		D6B6B85D1F9E4D7F0047C27F /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6B85C1F9E4D7F0047C27F /* APIConstants.swift */; };
+		D6B6B8601F9E567A0047C27F /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6B85F1F9E567A0047C27F /* Alert.swift */; };
+		D6B6B8621F9E69690047C27F /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6B8611F9E69690047C27F /* Article.swift */; };
+		D6B8F78C1ECFA27900EB6A21 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B8F78B1ECFA27900EB6A21 /* User.swift */; };
+		D6C141811ECD833F00FA189F /* ServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C141801ECD833F00FA189F /* ServiceController.swift */; };
+		D6C141831ECD855A00FA189F /* ServiceInformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C141821ECD855A00FA189F /* ServiceInformations.swift */; };
+		D6C141851ECD874000FA189F /* HourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C141841ECD874000FA189F /* HourCell.swift */; };
+		D6C141871ECD89BE00FA189F /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C141861ECD89BE00FA189F /* MaterialCell.swift */; };
+		D6C141891ECD8A1400FA189F /* MaterialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C141881ECD8A1400FA189F /* MaterialController.swift */; };
+		D6C1418C1ECD90D300FA189F /* LeasingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1418B1ECD90D300FA189F /* LeasingController.swift */; };
+		D6C1418E1ECD90F800FA189F /* LeasingInformations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1418D1ECD90F800FA189F /* LeasingInformations.swift */; };
+		D6C8FFBD1ECD99AB004338F7 /* MeetingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C8FFBC1ECD99AB004338F7 /* MeetingController.swift */; };
+		D6D4289C1FA545CC0086295D /* DirectoryPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D4289B1FA545CC0086295D /* DirectoryPopup.swift */; };
+		D6E6770E1F9F7CEB000D3B56 /* MateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E6770D1F9F7CEB000D3B56 /* MateCell.swift */; };
+		D6EC46F41F9F4E9900728640 /* SettingsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC46F31F9F4E9900728640 /* SettingsConstants.swift */; };
+		D6F5C4941EB6861100A6D8F0 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C4931EB6861100A6D8F0 /* Content.swift */; };
+		D6F5C4A21EB698FC00A6D8F0 /* Mate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F5C4A11EB698FC00A6D8F0 /* Mate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D654C4BA1EB53CAA00733CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D654C49A1EB53CAA00733CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D654C4A11EB53CAA00733CBD;
+			remoteInfo = "Sono ESEO";
+		};
+		D654C4C51EB53CAA00733CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D654C49A1EB53CAA00733CBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D654C4A11EB53CAA00733CBD;
+			remoteInfo = "Sono ESEO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB6FC184464C8A5F9CDFFBA /* Pods-Sono ESEOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEOTests/Pods-Sono ESEOTests.release.xcconfig"; sourceTree = "<group>"; };
+		61BC79D1AD58E30A9778806C /* Pods-Sono ESEOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEOUITests/Pods-Sono ESEOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9DA8C1F28DAE4F31A1E5BE13 /* Pods-Sono ESEOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEOTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEOTests/Pods-Sono ESEOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ECB214A104F92887CEC125C /* Pods-Sono ESEOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEOUITests/Pods-Sono ESEOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE16AF67EC5070C91BCF1F79 /* Pods_Sono_ESEO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sono_ESEO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60A1A1C1EDB249C00B78749 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		D60A77B21ED0589000F80055 /* SONOESEO-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SONOESEO-Bridging-Header.h"; sourceTree = "<group>"; };
+		D60A77B31ED08C1900F80055 /* Material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Material.swift; sourceTree = "<group>"; };
+		D60A77B71ED08DFD00F80055 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		D60E868A1EB61A5800BA0ACA /* ServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		D60E868D1EB61B0D00BA0ACA /* ServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCell.swift; sourceTree = "<group>"; };
+		D60E86911EB623DA00BA0ACA /* ServicePopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicePopup.swift; sourceTree = "<group>"; };
+		D60E86941EB63C3C00BA0ACA /* CalendarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarController.swift; sourceTree = "<group>"; };
+		D60E86A21EB660AD00BA0ACA /* ActivitiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesController.swift; sourceTree = "<group>"; };
+		D60E86A41EB6629500BA0ACA /* SortModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortModal.swift; sourceTree = "<group>"; };
+		D60E86A61EB6686E00BA0ACA /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		D60E86AB1EB66E2A00BA0ACA /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		D60F89071FA36A87008AD782 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		D654C4A21EB53CAA00733CBD /* Sono ESEO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sono ESEO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654C4A51EB53CAA00733CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D654C4AA1EB53CAA00733CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D654C4AD1EB53CAA00733CBD /* Sono_ESEO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sono_ESEO.xcdatamodel; sourceTree = "<group>"; };
+		D654C4AF1EB53CAA00733CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D654C4B21EB53CAA00733CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D654C4B41EB53CAA00733CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D654C4B91EB53CAA00733CBD /* Sono ESEOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sono ESEOTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654C4BD1EB53CAA00733CBD /* Sono_ESEOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sono_ESEOTests.swift; sourceTree = "<group>"; };
+		D654C4BF1EB53CAA00733CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D654C4C41EB53CAA00733CBD /* Sono ESEOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sono ESEOUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D654C4C81EB53CAA00733CBD /* Sono_ESEOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sono_ESEOUITests.swift; sourceTree = "<group>"; };
+		D654C4CA1EB53CAA00733CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D654C4D71EB53CC900733CBD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		D654C4D91EB53D7600733CBD /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		D654C4DA1EB53D7600733CBD /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D654C4DB1EB53D7600733CBD /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		D654C4DC1EB53D7600733CBD /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D654C4DD1EB53D7600733CBD /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		D654C4DE1EB53D7600733CBD /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		D654C4DF1EB53D7600733CBD /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		D654C4E01EB53D7600733CBD /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		D654C4E11EB53D7600733CBD /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		D654C4E21EB53D7600733CBD /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		D654C4E31EB53D7600733CBD /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		D654C4E41EB53D7600733CBD /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		D654C4E51EB53D7600733CBD /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D654C4E61EB53D7600733CBD /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		D654C4E71EB53D7600733CBD /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		D654C4E81EB53D7600733CBD /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		D654C4E91EB53D7600733CBD /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		D654C4EA1EB53D7600733CBD /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D654C5001EB5411700733CBD /* PortalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalController.swift; sourceTree = "<group>"; };
+		D66C77EE1EBB470E006E4BDB /* Activities.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activities.storyboard; sourceTree = "<group>"; };
+		D672283A1EB5F2A100A10EBF /* ArticleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
+		D68424231FA000C100A4469D /* ActivitiesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesConstants.swift; sourceTree = "<group>"; };
+		D687F36C1EB55782002F7C1F /* DirectoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryController.swift; sourceTree = "<group>"; };
+		D687F36E1EB5579E002F7C1F /* DirectoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectoryCell.swift; sourceTree = "<group>"; };
+		D6B456771EB546680069044B /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		D6B4567D1EB550500069044B /* UserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		D6B4567F1EB553480069044B /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		D6B456821EB553A00069044B /* ArticlesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesController.swift; sourceTree = "<group>"; };
+		D6B456841EB553D10069044B /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D6B6B8581F9E157D0047C27F /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D6B6B85A1F9E46F50047C27F /* APICore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICore.swift; sourceTree = "<group>"; };
+		D6B6B85C1F9E4D7F0047C27F /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		D6B6B85F1F9E567A0047C27F /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D6B6B8611F9E69690047C27F /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		D6B7995C1FA62D3800311F24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6B7995D1FA62D3800311F24 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6B8F78B1ECFA27900EB6A21 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D6BD34861ED247E300D8E94F /* Sono ESEO.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sono ESEO.entitlements"; sourceTree = "<group>"; };
+		D6C141801ECD833F00FA189F /* ServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceController.swift; sourceTree = "<group>"; };
+		D6C141821ECD855A00FA189F /* ServiceInformations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceInformations.swift; sourceTree = "<group>"; };
+		D6C141841ECD874000FA189F /* HourCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourCell.swift; sourceTree = "<group>"; };
+		D6C141861ECD89BE00FA189F /* MaterialCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
+		D6C141881ECD8A1400FA189F /* MaterialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialController.swift; sourceTree = "<group>"; };
+		D6C1418B1ECD90D300FA189F /* LeasingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeasingController.swift; sourceTree = "<group>"; };
+		D6C1418D1ECD90F800FA189F /* LeasingInformations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeasingInformations.swift; sourceTree = "<group>"; };
+		D6C8FFBC1ECD99AB004338F7 /* MeetingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingController.swift; sourceTree = "<group>"; };
+		D6D4289B1FA545CC0086295D /* DirectoryPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryPopup.swift; sourceTree = "<group>"; };
+		D6E6770D1F9F7CEB000D3B56 /* MateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateCell.swift; sourceTree = "<group>"; };
+		D6EC46F31F9F4E9900728640 /* SettingsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsConstants.swift; sourceTree = "<group>"; };
+		D6F5C4931EB6861100A6D8F0 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		D6F5C4A11EB698FC00A6D8F0 /* Mate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mate.swift; sourceTree = "<group>"; };
+		E590FC015FDCD8B728E7682B /* Pods-Sono ESEO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEO.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEO/Pods-Sono ESEO.release.xcconfig"; sourceTree = "<group>"; };
+		EBFD1DBE4EFA70180A012BBF /* Pods-Sono ESEO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sono ESEO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sono ESEO/Pods-Sono ESEO.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF5B3DE48E9FE8B0418C7F4 /* Pods_Sono_ESEOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sono_ESEOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B06FCE8B2F4F1A1EB04D2D /* Pods_Sono_ESEOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sono_ESEOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D654C49F1EB53CAA00733CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DE68FBD723440F4369CC5E /* Pods_Sono_ESEO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4B61EB53CAA00733CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8246707D9532B241810FD717 /* Pods_Sono_ESEOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4C11EB53CAA00733CBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2161FA454014D8CA68CD9C45 /* Pods_Sono_ESEOUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1931DD95933D148904D3A289 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBFD1DBE4EFA70180A012BBF /* Pods-Sono ESEO.debug.xcconfig */,
+				E590FC015FDCD8B728E7682B /* Pods-Sono ESEO.release.xcconfig */,
+				9DA8C1F28DAE4F31A1E5BE13 /* Pods-Sono ESEOTests.debug.xcconfig */,
+				3FB6FC184464C8A5F9CDFFBA /* Pods-Sono ESEOTests.release.xcconfig */,
+				9ECB214A104F92887CEC125C /* Pods-Sono ESEOUITests.debug.xcconfig */,
+				61BC79D1AD58E30A9778806C /* Pods-Sono ESEOUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FDD3604307B478B227E523E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE16AF67EC5070C91BCF1F79 /* Pods_Sono_ESEO.framework */,
+				EDF5B3DE48E9FE8B0418C7F4 /* Pods_Sono_ESEOTests.framework */,
+				F4B06FCE8B2F4F1A1EB04D2D /* Pods_Sono_ESEOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60E86891EB61A4C00BA0ACA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D60E868A1EB61A5800BA0ACA /* ServicesController.swift */,
+				D60E86911EB623DA00BA0ACA /* ServicePopup.swift */,
+				D60E868D1EB61B0D00BA0ACA /* ServiceCell.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		D60E86931EB63C3000BA0ACA /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D60E86941EB63C3C00BA0ACA /* CalendarController.swift */,
+				D60F89071FA36A87008AD782 /* CalendarCell.swift */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		D60E86A11EB660A300BA0ACA /* Activities */ = {
+			isa = PBXGroup;
+			children = (
+				D60E86A21EB660AD00BA0ACA /* ActivitiesController.swift */,
+				D68424231FA000C100A4469D /* ActivitiesConstants.swift */,
+				D60E86A61EB6686E00BA0ACA /* ActivityCell.swift */,
+				D60E86A41EB6629500BA0ACA /* SortModal.swift */,
+				D6C8FFBB1ECD999C004338F7 /* Meeting */,
+				D6C1418A1ECD90C300FA189F /* Leasing */,
+				D6C1417E1ECD830100FA189F /* Service */,
+			);
+			name = Activities;
+			sourceTree = "<group>";
+		};
+		D60E86AA1EB66E2100BA0ACA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D60E86AB1EB66E2A00BA0ACA /* SettingsController.swift */,
+				D6EC46F31F9F4E9900728640 /* SettingsConstants.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		D654C4991EB53CAA00733CBD = {
+			isa = PBXGroup;
+			children = (
+				D654C4A41EB53CAA00733CBD /* Sono ESEO */,
+				D654C4BC1EB53CAA00733CBD /* Sono ESEOTests */,
+				D654C4C71EB53CAA00733CBD /* Sono ESEOUITests */,
+				D654C4A31EB53CAA00733CBD /* Products */,
+				1931DD95933D148904D3A289 /* Pods */,
+				8FDD3604307B478B227E523E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D654C4A31EB53CAA00733CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D654C4A21EB53CAA00733CBD /* Sono ESEO.app */,
+				D654C4B91EB53CAA00733CBD /* Sono ESEOTests.xctest */,
+				D654C4C41EB53CAA00733CBD /* Sono ESEOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D654C4A41EB53CAA00733CBD /* Sono ESEO */ = {
+			isa = PBXGroup;
+			children = (
+				D6BD34861ED247E300D8E94F /* Sono ESEO.entitlements */,
+				D654C4A51EB53CAA00733CBD /* AppDelegate.swift */,
+				D6F5C4921EB6860900A6D8F0 /* Content */,
+				D6F5C48D1EB6852D00A6D8F0 /* API */,
+				D6B6B85E1F9E54A60047C27F /* Graphics */,
+				D654C5021EB5417700733CBD /* Models */,
+				D654C4FE1EB540FF00733CBD /* Controllers */,
+				D654C4FD1EB53D7A00733CBD /* Font */,
+				D654C4D61EB53CBB00733CBD /* Views */,
+				D654C4AF1EB53CAA00733CBD /* Assets.xcassets */,
+				D654C4B41EB53CAA00733CBD /* Info.plist */,
+				D654C4AC1EB53CAA00733CBD /* Sono_ESEO.xcdatamodeld */,
+				D60A77B21ED0589000F80055 /* SONOESEO-Bridging-Header.h */,
+			);
+			path = "Sono ESEO";
+			sourceTree = "<group>";
+		};
+		D654C4BC1EB53CAA00733CBD /* Sono ESEOTests */ = {
+			isa = PBXGroup;
+			children = (
+				D654C4BD1EB53CAA00733CBD /* Sono_ESEOTests.swift */,
+				D654C4BF1EB53CAA00733CBD /* Info.plist */,
+			);
+			path = "Sono ESEOTests";
+			sourceTree = "<group>";
+		};
+		D654C4C71EB53CAA00733CBD /* Sono ESEOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D654C4C81EB53CAA00733CBD /* Sono_ESEOUITests.swift */,
+				D654C4CA1EB53CAA00733CBD /* Info.plist */,
+			);
+			path = "Sono ESEOUITests";
+			sourceTree = "<group>";
+		};
+		D654C4D61EB53CBB00733CBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D654C4B11EB53CAA00733CBD /* LaunchScreen.storyboard */,
+				D66C77EE1EBB470E006E4BDB /* Activities.storyboard */,
+				D654C4A91EB53CAA00733CBD /* Main.storyboard */,
+				D654C4D71EB53CC900733CBD /* Login.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D654C4FD1EB53D7A00733CBD /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D654C4D91EB53D7600733CBD /* Lato-Black.ttf */,
+				D654C4DA1EB53D7600733CBD /* Lato-BlackItalic.ttf */,
+				D654C4DB1EB53D7600733CBD /* Lato-Bold.ttf */,
+				D654C4DC1EB53D7600733CBD /* Lato-BoldItalic.ttf */,
+				D654C4DD1EB53D7600733CBD /* Lato-Hairline.ttf */,
+				D654C4DE1EB53D7600733CBD /* Lato-HairlineItalic.ttf */,
+				D654C4DF1EB53D7600733CBD /* Lato-Heavy.ttf */,
+				D654C4E01EB53D7600733CBD /* Lato-HeavyItalic.ttf */,
+				D654C4E11EB53D7600733CBD /* Lato-Italic.ttf */,
+				D654C4E21EB53D7600733CBD /* Lato-Light.ttf */,
+				D654C4E31EB53D7600733CBD /* Lato-LightItalic.ttf */,
+				D654C4E41EB53D7600733CBD /* Lato-Medium.ttf */,
+				D654C4E51EB53D7600733CBD /* Lato-MediumItalic.ttf */,
+				D654C4E61EB53D7600733CBD /* Lato-Regular.ttf */,
+				D654C4E71EB53D7600733CBD /* Lato-Semibold.ttf */,
+				D654C4E81EB53D7600733CBD /* Lato-SemiboldItalic.ttf */,
+				D654C4E91EB53D7600733CBD /* Lato-Thin.ttf */,
+				D654C4EA1EB53D7600733CBD /* Lato-ThinItalic.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		D654C4FE1EB540FF00733CBD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D6B456811EB5538F0069044B /* Articles */,
+				D60E86A11EB660A300BA0ACA /* Activities */,
+				D60E86931EB63C3000BA0ACA /* Calendar */,
+				D687F3701EB558C6002F7C1F /* Common */,
+				D687F36B1EB55778002F7C1F /* Directory */,
+				D6B456791EB5466E0069044B /* Login */,
+				D654C4FF1EB5410800733CBD /* Public */,
+				D60E86AA1EB66E2100BA0ACA /* Settings */,
+				D60E86891EB61A4C00BA0ACA /* Services */,
+				D6B4567C1EB550490069044B /* User */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D654C4FF1EB5410800733CBD /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D654C5001EB5411700733CBD /* PortalController.swift */,
+				D60A1A1C1EDB249C00B78749 /* WebViewController.swift */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		D654C5021EB5417700733CBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D60A77B71ED08DFD00F80055 /* Activity.swift */,
+				D6B6B8611F9E69690047C27F /* Article.swift */,
+				D6F5C4A11EB698FC00A6D8F0 /* Mate.swift */,
+				D60A77B31ED08C1900F80055 /* Material.swift */,
+				D6B8F78B1ECFA27900EB6A21 /* User.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D687F36B1EB55778002F7C1F /* Directory */ = {
+			isa = PBXGroup;
+			children = (
+				D687F36C1EB55782002F7C1F /* DirectoryController.swift */,
+				D6D4289B1FA545CC0086295D /* DirectoryPopup.swift */,
+				D687F36E1EB5579E002F7C1F /* DirectoryCell.swift */,
+			);
+			name = Directory;
+			sourceTree = "<group>";
+		};
+		D687F3701EB558C6002F7C1F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D6C141841ECD874000FA189F /* HourCell.swift */,
+				D6C141861ECD89BE00FA189F /* MaterialCell.swift */,
+				D6C141881ECD8A1400FA189F /* MaterialController.swift */,
+				D6E6770D1F9F7CEB000D3B56 /* MateCell.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		D6B456791EB5466E0069044B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D6B456771EB546680069044B /* LoginController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D6B4567C1EB550490069044B /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4567D1EB550500069044B /* UserController.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		D6B456811EB5538F0069044B /* Articles */ = {
+			isa = PBXGroup;
+			children = (
+				D6B456821EB553A00069044B /* ArticlesController.swift */,
+				D672283A1EB5F2A100A10EBF /* ArticleController.swift */,
+				D6B456841EB553D10069044B /* ArticleCell.swift */,
+			);
+			name = Articles;
+			sourceTree = "<group>";
+		};
+		D6B6B85E1F9E54A60047C27F /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				D6B4567F1EB553480069044B /* ViewDesign.swift */,
+				D6B6B85F1F9E567A0047C27F /* Alert.swift */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		D6C1417E1ECD830100FA189F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D6C141801ECD833F00FA189F /* ServiceController.swift */,
+				D6C141821ECD855A00FA189F /* ServiceInformations.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D6C1418A1ECD90C300FA189F /* Leasing */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1418B1ECD90D300FA189F /* LeasingController.swift */,
+				D6C1418D1ECD90F800FA189F /* LeasingInformations.swift */,
+			);
+			name = Leasing;
+			sourceTree = "<group>";
+		};
+		D6C8FFBB1ECD999C004338F7 /* Meeting */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8FFBC1ECD99AB004338F7 /* MeetingController.swift */,
+			);
+			name = Meeting;
+			sourceTree = "<group>";
+		};
+		D6F5C48D1EB6852D00A6D8F0 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D6B6B8581F9E157D0047C27F /* APIClient.swift */,
+				D6B6B85A1F9E46F50047C27F /* APICore.swift */,
+				D6B6B85C1F9E4D7F0047C27F /* APIConstants.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D6F5C4921EB6860900A6D8F0 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6F5C4931EB6861100A6D8F0 /* Content.swift */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D654C4A11EB53CAA00733CBD /* Sono ESEO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D654C4CD1EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEO" */;
+			buildPhases = (
+				EE024F97EACCE8CD47BD751D /* [CP] Check Pods Manifest.lock */,
+				D654C49E1EB53CAA00733CBD /* Sources */,
+				D654C49F1EB53CAA00733CBD /* Frameworks */,
+				D654C4A01EB53CAA00733CBD /* Resources */,
+				8160436379D803CEE65781EA /* [CP] Embed Pods Frameworks */,
+				82DC96D2D80F1F69F842FE03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sono ESEO";
+			productName = "Sono ESEO";
+			productReference = D654C4A21EB53CAA00733CBD /* Sono ESEO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D654C4B81EB53CAA00733CBD /* Sono ESEOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D654C4D01EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEOTests" */;
+			buildPhases = (
+				A82D2BC3529C9D7DBA2C62B7 /* [CP] Check Pods Manifest.lock */,
+				D654C4B51EB53CAA00733CBD /* Sources */,
+				D654C4B61EB53CAA00733CBD /* Frameworks */,
+				D654C4B71EB53CAA00733CBD /* Resources */,
+				D461AF506DDC80197FA5AF37 /* [CP] Embed Pods Frameworks */,
+				C23CF574E7D9C1A80BA20660 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D654C4BB1EB53CAA00733CBD /* PBXTargetDependency */,
+			);
+			name = "Sono ESEOTests";
+			productName = "Sono ESEOTests";
+			productReference = D654C4B91EB53CAA00733CBD /* Sono ESEOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D654C4C31EB53CAA00733CBD /* Sono ESEOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D654C4D31EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEOUITests" */;
+			buildPhases = (
+				0C192588F9D4D64773787B87 /* [CP] Check Pods Manifest.lock */,
+				D654C4C01EB53CAA00733CBD /* Sources */,
+				D654C4C11EB53CAA00733CBD /* Frameworks */,
+				D654C4C21EB53CAA00733CBD /* Resources */,
+				598D2CD443BC2E0390F977B1 /* [CP] Embed Pods Frameworks */,
+				66FF90424F007357499D572E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D654C4C61EB53CAA00733CBD /* PBXTargetDependency */,
+			);
+			name = "Sono ESEOUITests";
+			productName = "Sono ESEOUITests";
+			productReference = D654C4C41EB53CAA00733CBD /* Sono ESEOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D654C49A1EB53CAA00733CBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sonasi KATOA";
+				TargetAttributes = {
+					D654C4A11EB53CAA00733CBD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q2J25455SM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					D654C4B81EB53CAA00733CBD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q2J25455SM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D654C4A11EB53CAA00733CBD;
+					};
+					D654C4C31EB53CAA00733CBD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q2J25455SM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D654C4A11EB53CAA00733CBD;
+					};
+				};
+			};
+			buildConfigurationList = D654C49D1EB53CAA00733CBD /* Build configuration list for PBXProject "Sono ESEO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = D654C4991EB53CAA00733CBD;
+			productRefGroup = D654C4A31EB53CAA00733CBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D654C4A11EB53CAA00733CBD /* Sono ESEO */,
+				D654C4B81EB53CAA00733CBD /* Sono ESEOTests */,
+				D654C4C31EB53CAA00733CBD /* Sono ESEOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D654C4A01EB53CAA00733CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D654C4ED1EB53D7600733CBD /* Lato-Bold.ttf in Resources */,
+				D654C4F51EB53D7600733CBD /* Lato-LightItalic.ttf in Resources */,
+				D654C4B31EB53CAA00733CBD /* LaunchScreen.storyboard in Resources */,
+				D654C4F31EB53D7600733CBD /* Lato-Italic.ttf in Resources */,
+				D654C4F01EB53D7600733CBD /* Lato-HairlineItalic.ttf in Resources */,
+				D654C4FA1EB53D7600733CBD /* Lato-SemiboldItalic.ttf in Resources */,
+				D654C4D81EB53CC900733CBD /* Login.storyboard in Resources */,
+				D654C4FC1EB53D7600733CBD /* Lato-ThinItalic.ttf in Resources */,
+				D654C4F71EB53D7600733CBD /* Lato-MediumItalic.ttf in Resources */,
+				D654C4F21EB53D7600733CBD /* Lato-HeavyItalic.ttf in Resources */,
+				D654C4EE1EB53D7600733CBD /* Lato-BoldItalic.ttf in Resources */,
+				D654C4EC1EB53D7600733CBD /* Lato-BlackItalic.ttf in Resources */,
+				D654C4F61EB53D7600733CBD /* Lato-Medium.ttf in Resources */,
+				D654C4EF1EB53D7600733CBD /* Lato-Hairline.ttf in Resources */,
+				D654C4B01EB53CAA00733CBD /* Assets.xcassets in Resources */,
+				D654C4F81EB53D7600733CBD /* Lato-Regular.ttf in Resources */,
+				D654C4EB1EB53D7600733CBD /* Lato-Black.ttf in Resources */,
+				D654C4FB1EB53D7600733CBD /* Lato-Thin.ttf in Resources */,
+				D654C4AB1EB53CAA00733CBD /* Main.storyboard in Resources */,
+				D654C4F11EB53D7600733CBD /* Lato-Heavy.ttf in Resources */,
+				D654C4F41EB53D7600733CBD /* Lato-Light.ttf in Resources */,
+				D654C4F91EB53D7600733CBD /* Lato-Semibold.ttf in Resources */,
+				D66C77EF1EBB470E006E4BDB /* Activities.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4B71EB53CAA00733CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4C21EB53CAA00733CBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C192588F9D4D64773787B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		598D2CD443BC2E0390F977B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEOUITests/Pods-Sono ESEOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FF90424F007357499D572E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEOUITests/Pods-Sono ESEOUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8160436379D803CEE65781EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEO/Pods-Sono ESEO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82DC96D2D80F1F69F842FE03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEO/Pods-Sono ESEO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A82D2BC3529C9D7DBA2C62B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C23CF574E7D9C1A80BA20660 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEOTests/Pods-Sono ESEOTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D461AF506DDC80197FA5AF37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sono ESEOTests/Pods-Sono ESEOTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE024F97EACCE8CD47BD751D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D654C49E1EB53CAA00733CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6B6B8621F9E69690047C27F /* Article.swift in Sources */,
+				D6C141891ECD8A1400FA189F /* MaterialController.swift in Sources */,
+				D6C1418C1ECD90D300FA189F /* LeasingController.swift in Sources */,
+				D6B456781EB546680069044B /* LoginController.swift in Sources */,
+				D6B6B85D1F9E4D7F0047C27F /* APIConstants.swift in Sources */,
+				D6F5C4A21EB698FC00A6D8F0 /* Mate.swift in Sources */,
+				D6B4567E1EB550500069044B /* UserController.swift in Sources */,
+				D654C4AE1EB53CAA00733CBD /* Sono_ESEO.xcdatamodeld in Sources */,
+				D654C5011EB5411700733CBD /* PortalController.swift in Sources */,
+				D60E86951EB63C3C00BA0ACA /* CalendarController.swift in Sources */,
+				D6C8FFBD1ECD99AB004338F7 /* MeetingController.swift in Sources */,
+				D6B456801EB553480069044B /* ViewDesign.swift in Sources */,
+				D672283B1EB5F2A100A10EBF /* ArticleController.swift in Sources */,
+				D60F89081FA36A87008AD782 /* CalendarCell.swift in Sources */,
+				D654C4A61EB53CAA00733CBD /* AppDelegate.swift in Sources */,
+				D6B456831EB553A00069044B /* ArticlesController.swift in Sources */,
+				D60E86A71EB6686E00BA0ACA /* ActivityCell.swift in Sources */,
+				D6C141811ECD833F00FA189F /* ServiceController.swift in Sources */,
+				D6B8F78C1ECFA27900EB6A21 /* User.swift in Sources */,
+				D6F5C4941EB6861100A6D8F0 /* Content.swift in Sources */,
+				D60A77B41ED08C1900F80055 /* Material.swift in Sources */,
+				D60A1A1D1EDB249C00B78749 /* WebViewController.swift in Sources */,
+				D6C141851ECD874000FA189F /* HourCell.swift in Sources */,
+				D60E86AC1EB66E2A00BA0ACA /* SettingsController.swift in Sources */,
+				D6B6B85B1F9E46F50047C27F /* APICore.swift in Sources */,
+				D60E86921EB623DA00BA0ACA /* ServicePopup.swift in Sources */,
+				D60A77B81ED08DFD00F80055 /* Activity.swift in Sources */,
+				D6C141871ECD89BE00FA189F /* MaterialCell.swift in Sources */,
+				D687F36D1EB55782002F7C1F /* DirectoryController.swift in Sources */,
+				D60E868E1EB61B0D00BA0ACA /* ServiceCell.swift in Sources */,
+				D687F36F1EB5579E002F7C1F /* DirectoryCell.swift in Sources */,
+				D6C1418E1ECD90F800FA189F /* LeasingInformations.swift in Sources */,
+				D60E868B1EB61A5800BA0ACA /* ServicesController.swift in Sources */,
+				D6E6770E1F9F7CEB000D3B56 /* MateCell.swift in Sources */,
+				D60E86A51EB6629500BA0ACA /* SortModal.swift in Sources */,
+				D6C141831ECD855A00FA189F /* ServiceInformations.swift in Sources */,
+				D6B6B8591F9E157D0047C27F /* APIClient.swift in Sources */,
+				D6EC46F41F9F4E9900728640 /* SettingsConstants.swift in Sources */,
+				D6B456851EB553D10069044B /* ArticleCell.swift in Sources */,
+				D68424241FA000C100A4469D /* ActivitiesConstants.swift in Sources */,
+				D6D4289C1FA545CC0086295D /* DirectoryPopup.swift in Sources */,
+				D6B6B8601F9E567A0047C27F /* Alert.swift in Sources */,
+				D60E86A31EB660AD00BA0ACA /* ActivitiesController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4B51EB53CAA00733CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D654C4BE1EB53CAA00733CBD /* Sono_ESEOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D654C4C01EB53CAA00733CBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D654C4C91EB53CAA00733CBD /* Sono_ESEOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D654C4BB1EB53CAA00733CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D654C4A11EB53CAA00733CBD /* Sono ESEO */;
+			targetProxy = D654C4BA1EB53CAA00733CBD /* PBXContainerItemProxy */;
+		};
+		D654C4C61EB53CAA00733CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D654C4A11EB53CAA00733CBD /* Sono ESEO */;
+			targetProxy = D654C4C51EB53CAA00733CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D654C4A91EB53CAA00733CBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D654C4AA1EB53CAA00733CBD /* Base */,
+				D6B7995D1FA62D3800311F24 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D654C4B11EB53CAA00733CBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D654C4B21EB53CAA00733CBD /* Base */,
+				D6B7995C1FA62D3800311F24 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D654C4CB1EB53CAA00733CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D654C4CC1EB53CAA00733CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D654C4CE1EB53CAA00733CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD1DBE4EFA70180A012BBF /* Pods-Sono ESEO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sono ESEO/Sono ESEO.entitlements";
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eseo.sonoeseo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D654C4CF1EB53CAA00733CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E590FC015FDCD8B728E7682B /* Pods-Sono ESEO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sono ESEO/Sono ESEO.entitlements";
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEO/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eseo.sonoeseo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D654C4D11EB53CAA00733CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA8C1F28DAE4F31A1E5BE13 /* Pods-Sono ESEOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eseo.sonoeseo.Sono-ESEOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sono ESEO.app/Sono ESEO";
+			};
+			name = Debug;
+		};
+		D654C4D21EB53CAA00733CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB6FC184464C8A5F9CDFFBA /* Pods-Sono ESEOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEOTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eseo.sonoeseo.Sono-ESEOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sono ESEO.app/Sono ESEO";
+			};
+			name = Release;
+		};
+		D654C4D41EB53CAA00733CBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECB214A104F92887CEC125C /* Pods-Sono ESEOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eseo.sonoeseo.Sono-ESEOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sono ESEO";
+			};
+			name = Debug;
+		};
+		D654C4D51EB53CAA00733CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BC79D1AD58E30A9778806C /* Pods-Sono ESEOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q2J25455SM;
+				INFOPLIST_FILE = "Sono ESEOUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "eseo.sonoeseo.Sono-ESEOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sono ESEO";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D654C49D1EB53CAA00733CBD /* Build configuration list for PBXProject "Sono ESEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654C4CB1EB53CAA00733CBD /* Debug */,
+				D654C4CC1EB53CAA00733CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D654C4CD1EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654C4CE1EB53CAA00733CBD /* Debug */,
+				D654C4CF1EB53CAA00733CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D654C4D01EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654C4D11EB53CAA00733CBD /* Debug */,
+				D654C4D21EB53CAA00733CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D654C4D31EB53CAA00733CBD /* Build configuration list for PBXNativeTarget "Sono ESEOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D654C4D41EB53CAA00733CBD /* Debug */,
+				D654C4D51EB53CAA00733CBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D654C4AC1EB53CAA00733CBD /* Sono_ESEO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D654C4AD1EB53CAA00733CBD /* Sono_ESEO.xcdatamodel */,
+			);
+			currentVersion = D654C4AD1EB53CAA00733CBD /* Sono_ESEO.xcdatamodel */;
+			path = Sono_ESEO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D654C49A1EB53CAA00733CBD /* Project object */;
+}
